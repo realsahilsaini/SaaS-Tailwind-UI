@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "kode": ["Kode Mono", "sans-serif"],
+      }, 
+      colors:{
+        primary: '#3238f2'
       }
     },
   },
