@@ -1,3 +1,5 @@
+const navDialog = document.querySelector('#nav-dialog');
+
 function handelMenu(){
-  console.log('Menu Clicked');
+  navDialog.classList.toggle('hidden');
 }
