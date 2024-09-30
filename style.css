@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 @layer base{
-  p{
+  p, a{
     @apply font-kode font-medium text-gray-700
   }
 
