@@ -9,7 +9,7 @@ function handelMenu(){
 
 
 const initialTranslateLTR = -48*4;
-const initialTranslateRTL = 34*4;
+const initialTranslateRTL = 36*4;
 
 function setupIntersectionObserver(element, isLeftToRight, speed) {
   const intersectionCallback = (entries) => {
