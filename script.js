@@ -59,3 +59,24 @@ setupIntersectionObserver(line3, true, 0.2);
 // Feature line
 setupIntersectionObserver(line4, true, 0.9);
 
+
+
+// --------------------------------------------
+
+const dt = document.querySelectorAll('dt');
+
+dt.forEach((element) => {
+  element.addEventListener('click', () => {
+
+    const ddId = element.getAttribute('aria-controls');
+
+    const dd = document.getElementById(ddId);
+
+    const ddArrow = element.querySelectorAll('i')[0];
+
+    dd.classList.toggle('hidden');
+    ddArrow.classList.toggle('-rotate-180');
+  
+  });
+});
+

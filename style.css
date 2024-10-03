@@ -31,5 +31,9 @@
       @apply border-b border-dotted border-gray-300 hover:border-solid hover:border-gray-500
     }
 
+    .h2-style{
+       @apply text-5xl leading-normal sm:font-semibold max-w-2xl
+    }
+
 
 }
