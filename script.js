@@ -46,9 +46,16 @@ function setupIntersectionObserver(element, isLeftToRight, speed) {
 const line1 = document.getElementById('line1');
 const line2 = document.getElementById('line2');
 const line3 = document.getElementById('line3');
+
+// Feature line
 const line4 = document.getElementById('line4');
 
 
 setupIntersectionObserver(line1, true, 0.2);
 setupIntersectionObserver(line2, false, 0.2);
 setupIntersectionObserver(line3, true, 0.2);
+
+
+// Feature line
+setupIntersectionObserver(line4, true, 0.9);
+
